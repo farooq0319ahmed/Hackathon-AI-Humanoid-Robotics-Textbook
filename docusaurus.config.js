@@ -10,15 +10,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://farooq0319ahmed.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/humanoid-robotics-book/',
+  baseUrl: '/Hackathon-AI-Humanoid-Robotics-Textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics-book', // Usually your repo name.
+  organizationName: 'farooq0319ahmed', // Usually your GitHub org/user name.
+  projectName: 'Hackathon-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/humanoid-robotics-book/tree/main/',
+            'https://github.com/farooq0319ahmed/Hackathon-AI-Humanoid-Robotics-Textbook/tree/main/',
         },
         blog: false,
         theme: {
@@ -77,7 +77,7 @@ const config = {
             label: 'Modules',
           },
           {
-            href: 'https://github.com/your-username/humanoid-robotics-book',
+            href: 'https://github.com/farooq0319ahmed/Hackathon-AI-Humanoid-Robotics-Textbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -125,7 +125,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-username/humanoid-robotics-book',
+                href: 'https://github.com/farooq0319ahmed/Hackathon-AI-Humanoid-Robotics-Textbook',
               },
             ],
           },
