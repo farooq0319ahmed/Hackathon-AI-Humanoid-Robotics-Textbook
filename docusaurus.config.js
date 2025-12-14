@@ -10,17 +10,20 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://farooq0319ahmed.github.io',
+  //url: 'https://farooq0319ahmed.github.io',
+  url: 'https://hackathon-ai-humanoid-robotics-textbook.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Hackathon-AI-Humanoid-Robotics-Textbook/',
+  //baseUrl: '/Hackathon-AI-Humanoid-Robotics-Textbook/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'farooq0319ahmed', // Usually your GitHub org/user name.
-  projectName: 'Hackathon-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
+  //organizationName: 'farooq0319ahmed', // Usually your GitHub org/user name.
+  //projectName: 'Hackathon-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  //onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
