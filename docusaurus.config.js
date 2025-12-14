@@ -64,7 +64,8 @@ const config = {
         logo: {
           alt: 'Robot Logo',
           src: 'img/robot-logo.svg',
-          href: '/humanoid-robotics-book/docs/intro',  // Link logo to intro page instead of root
+          //href: '/humanoid-robotics-book/docs/intro',  // Link logo to intro page instead of root
+          href: '/docs/intro',
         },
         items: [
           {
