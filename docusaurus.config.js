@@ -40,6 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/docs', // Serve docs under /docs path
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -64,15 +65,24 @@ const config = {
         logo: {
           alt: 'Robot Logo',
           src: 'img/robot-logo.svg',
-          //href: '/humanoid-robotics-book/docs/intro',  // Link logo to intro page instead of root
-          href: '/docs/intro',
+          href: '/docs/intro',  // Link logo to intro page
         },
         items: [
+          //{
+            //type: 'doc',
+            //docId: 'intro',
+            //position: 'left',
+            //label: 'Home',
+          //},
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            to: '/',
             label: 'Home',
+            position: 'left',
+          },
+          {
+            to: '/docs/intro',
+            label: 'Intro',
+            position: 'left',
           },
           {
             type: 'docSidebar',

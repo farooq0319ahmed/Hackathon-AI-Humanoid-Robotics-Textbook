@@ -212,6 +212,8 @@ See `.specify/memory/constitution.md` for code quality, testing, performance, se
 ## Active Technologies
 - Python 3.8+ for ROS 2 integration, Markdown for documentation + ROS 2 (Humble Hawksbill or later), Gazebo, Unity (2022.3 LTS or later), NVIDIA Isaac Sim/ROS, OpenAI Whisper API (001-humanoid-robotics-book)
 - N/A (educational content, no persistent storage required) (001-humanoid-robotics-book)
+- CSS/SCSS, JavaScript/TypeScript, React components for Docusaurus customization + Docusaurus 3+, Node.js 18+, npm/yarn package manager, React framework (001-docusaurus-ui-upgrade)
+- N/A (static site generation, no persistent storage required) (001-docusaurus-ui-upgrade)
 
 ## Recent Changes
 - 001-humanoid-robotics-book: Added Python 3.8+ for ROS 2 integration, Markdown for documentation + ROS 2 (Humble Hawksbill or later), Gazebo, Unity (2022.3 LTS or later), NVIDIA Isaac Sim/ROS, OpenAI Whisper API
